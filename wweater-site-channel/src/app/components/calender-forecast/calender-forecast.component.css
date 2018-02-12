@@ -1,0 +1,80 @@
+div.weather-container {
+  position: relative;
+  max-width: 100%;
+  justify-content: space-around;
+  margin: 0;
+}
+img.weather-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.card-loader {
+  margin: auto;
+  border: 7px solid #525252;
+  border-radius: 50%;
+  border-top: 7px solid #a0a0a0;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  position: absolute;
+}
+.card {
+  background: #e2e2e2;
+  position: relative;
+  margin: 5px;
+  float: left;
+  min-height: 400px;
+}
+
+.card .list-group-item {
+  background: none;
+  border: none;
+  padding: 10px;
+  margin: 2px;
+}
+
+.card .list-group-item:not(:last-child) {
+  border-bottom: 1px solid #cecece;
+}
+
+.card-title {
+  color: white;
+}
+
+.remove-card-button {
+  position: absolute;
+  left: -15px;
+  top: -10px;
+  background: #ca4966;
+  color: #eacad2;
+  padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 18px;
+  border: 1px solid #a2a2a2;
+  cursor: pointer;
+}
+
+h3 {
+  margin-bottom: -1.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  text-align: center;
+}
+h5 {
+  margin-bottom: -1.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  color: inherit;
+  padding: 5px;
+}

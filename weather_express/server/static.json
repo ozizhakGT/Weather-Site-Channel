@@ -1,0 +1,44 @@
+{
+  "cities": {
+    "paris": 
+      "6ec2269e3746ea3427e432c7bb5dac16aa3460d29b6523ffca4c3980ba9b7e15",
+    "tel aviv":
+      "5c95b44a2f64030b0186c9671a0ddda278cbbbe3379db200e6cf89158df4b93c",
+    "jerusalem":
+      "09eaab3c1d4440b06908d3ce8a3ee3717c6599accd8d5e36a8014da6ffb9a8ce",
+      "florida":
+      "aec105ac1f6a040a00d3c541c16402b49e313996e40b61046bf8232fad99257b",
+      "panama":
+      "1a39ec04cb751c9dd65d017ab788443408d914d92c2184561d2be99dadc7dc8f"
+  },
+  
+  "baseWeatherUrl": "https://weather.com/en-JM/weather/today/l/",
+
+  "weatherIcons": {
+    "today-card-day-clear":
+      "https://cdn2.iconfinder.com/data/icons/weather-icons-8/512/day-clear-512.png",
+    "today-card-day-cloudy-mostly":
+      "https://cdn.iconscout.com/public/images/icon/premium/png-512/weather-app-cloud-forecast-night-cloudy-sun-rain-3e2fdc2d625954ab-512x512.png",
+    "today-card-night-clear":
+      "https://cdn1.iconfinder.com/data/icons/weather-18/512/blue_sky_at_night-512.png",
+    "today-card-day-cloudy":
+      "https://cdn2.iconfinder.com/data/icons/wthr/32/partly-cloudy-day-512.png",
+    "today-card-night-cloudy-partly":
+      "http://pngimages.net/sites/default/files/sunny-to-partly-cloudy-png-image-40993.png",
+    "today-card-day-cloudy-partly":
+      "https://cdn2.iconfinder.com/data/icons/wthr/32/partly-cloudy-day-512.png",
+    "today_nowcard-main.today-card-day-rain":
+      "https://cdn4.iconfinder.com/data/icons/mini-material-design-weather-icons-single-color/32/day_rain_heavy-512.png", 
+    "today-card-day-thunderstorms":
+      "https://cdn1.iconfinder.com/data/icons/weather-elements/128/Weather_CloudThunderRain.png",
+    "today-card-night-cloudy-mostly":
+      "https://cdn2.iconfinder.com/data/icons/wthr/32/partly-cloudy-night-512.png",
+    "today-card-other-fog":
+      "https://cdn0.iconfinder.com/data/icons/wthr/32/692980-day-fog-512.png",
+    "today-card-other-ice":
+      "https://cdn3.iconfinder.com/data/icons/weather-2-12/128/Hail-Rain-Cloudy-Ice-Precipitation-Storm-512.png",
+    "today-card-other-snow":
+      "https://cdn3.iconfinder.com/data/icons/chubby-weather/412/Snow_heavy-512.png"
+
+  }
+}

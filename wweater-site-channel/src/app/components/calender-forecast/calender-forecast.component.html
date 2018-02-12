@@ -1,0 +1,26 @@
+<div class="weather-container container row">
+  <div class="card container text-center col-sm-3" style="width: 18rem;" *ngFor="let weather of weatherData | sortAsc;let i=index; trackBy: getLocation">
+    <div class="remove-card-button" (click)="removeWeatherCard(i)">-</div>
+    <h3>{{weather.location}}</h3>
+    <br>
+    <ul *ngIf="weather.temp" class="list-group list-group-flush text-center">
+      <li class="list-group-item">
+        Temp
+        <br> {{weather.temp}}°
+        <br>
+        <img class="card-img-top weather-image" [src]="weather.imageUrl" alt="Image not found">
+      </li>
+      <li class="list-group-item">
+        <h6>Current Status</h6>
+        {{weather.desc}}
+      </li>
+      <li class="list-group-item">
+        <h6>Wind</h6>
+        {{weather.wind}}</li>
+      <li class="list-group-item">
+        <h6>Humidity</h6>
+        {{weather.humidity}}</li>
+    </ul>
+    <div *ngIf="!weather.temp" class="card-loader"></div>
+  </div>
+</div>
