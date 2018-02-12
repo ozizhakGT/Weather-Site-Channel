@@ -1,5 +1,10 @@
 # Weather-Site-Channel
 
-## Front end 
+## Back end
+1. cmd to weather_express/server
+2. npm start
 
-[bla]http://localhost:4200
+## Front end 
+1. cmd to wweater-site-channel
+2. npm start
+3. [open] www.localhost:4200
